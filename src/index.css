@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --googleblue : #4285F4;
+  --googlered : #DB4437;
+  --googlegreen : #0F9D58;
+  --googleyellow : #F4B400;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+@keyframes borderChange {
+  0% {
+    border-top-color: var(--googleblue);
+    border-right-color: var(--googlered);
+    border-bottom-color: var(--googlegreen);
+    border-left-color: var(--googleyellow);
+  }
+  50% {
+    border-left-color: var(--googleblue);
+    border-top-color: var(--googlered);
+    border-right-color: var(--googlegreen);
+    border-bottom-color: var(--googleyellow);
+  }
+  100% {
+    border-bottom-color: var(--googleblue);
+    border-left-color: var(--googlered);
+    border-top-color: var(--googlegreen);
+    border-right-color: var(--googleyellow);
+  }
+}
+
+body {
+  border: 4px solid white;
+  animation: borderChange 3s infinite alternate;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  display: flex;
+  color: black;
+  min-width: 320px;
+  min-height: 100vh;
+ 
+}
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+h1.title{
+  margin: 0px;
+  font-size: 2.5rem;
+  padding: 7px;
+  color: white;
+  background: var(--googlegreen);;
+  /* border-radius: 30px; */
+}
+.header-img{transform: scale(.7);}
+.box{
+  /* border: 2px solid white; */
+  animation: borderChange 2s infinite alternate;
+  max-width: 70em;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+  padding: 20x;
+}
+
+h2.location{
+  font-size: 2rem;
+  margin: 0px;
+  color: darkkhaki;
+}
+.items{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  height: 40px;
+  width: 210px;
+  border-radius: 30px;
+}
+.box:nth-child(2){
+  display: none;
+}
+.items a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+.handle img{
+  height: 80px; width: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.items:nth-child(odd) {
+  border-left: 3px solid var(--googleyellow);
+  border-top: 3px solid var(--googleblue);
+  border-right: 3px solid var(--googlered);
+  border-bottom: 3px solid var(--googlegreen);
+  transition: 0.5s ease-in; 
+}
+
+.items:nth-child(even) {
+  border-left: 3px solid var(--googleyellow);
+  border-top: 3px solid var(--googleblue);
+  border-bottom: 3px solid var(--googlegreen);
+  border-right: 3px solid var(--googlered);
+  transition: 0.5s ease-in; 
+}
+
+
+.items:nth-child(odd):hover {
+  border-top: 3px solid var(--googleyellow);
+  border-right: 3px solid var(--googleblue);
+  border-bottom: 3px solid var(--googlered);
+  border-left: 3px solid var(--googlegreen);
+  transition: 0.4s ease-in;
+}
+
+.items:nth-child(even):hover {
+  border-top: 3px solid var(--googleyellow);
+  border-right: 3px solid var(--googleblue);
+  border-bottom: 3px solid var(--googlered);
+  border-left: 3px solid var(--googlegreen);
+  transition: 0.4s ease-in;
+}
+
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media (max-width: 414px) {
+    .desk{display: none;}
+    body{
+      border: none;
+    }
+}
