@@ -7,7 +7,7 @@
 
 }
 *{color: white;}
-#root{padding: 2px}
+#root{padding: 0px}
 
 @keyframes borderChange {
     0% {
