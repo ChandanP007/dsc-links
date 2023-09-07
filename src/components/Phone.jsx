@@ -1,7 +1,6 @@
 import React from 'react';
 import '../phone.css'
 import data from '../data.json'
-import univpicture from '../assets/university.jpg'
 
 function Phone(){
     return (

@@ -1,0 +1,30 @@
+:root{
+    
+  --googleblue : #4285F4;
+  --googlered : #DB4437;
+  --googlegreen : #0F9D58;
+  --googleyellow : #F4B400;
+  background-color: #242424;
+}
+.brand{
+    padding: 10px;
+    background: url('./assets/university.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    border: 5px solid white;
+    animation: borderChange 3s infinite alternate;
+}
+.brand h1{
+    margin: 4px;
+    color : white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    font-size: 45px;
+    text-align: center;
+}
+.brand h2{
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    margin: 0px;
+}
