@@ -1,7 +1,7 @@
 import React from 'react';
-import '../desktop.css'
 import data from '../data.json'
 import  '../index.css'
+import '../desktop.css'
 function Desktop(){
     return(
         <>
@@ -13,32 +13,46 @@ function Desktop(){
 
         <div className="accounts">
             <div className="item">
+            <a href={data.community.url}>
                 <img src={data.community.src} alt=""/>
-                <a href={data.community.url}><h6>{data.community.name}</h6></a>
+                <h6>{data.community.name}</h6>
+            </a>
             </div>
             <div className="item">
+            <a href={data.discord.url}>
                 <img src={data.discord.src} alt="" />
-                <a href={data.discord.url}><h6>{data.discord.name}</h6></a>
+                <h6>{data.discord.name}</h6>
+            </a>
             </div>
             <div className="item">
+                <a href={data.whatsapp.url}>
                 <img src={data.whatsapp.src} alt="" />
-                <a href={data.whatsapp.url}><h6>{data.whatsapp.name}</h6></a>
+                <h6>{data.whatsapp.name}</h6>
+                </a> 
             </div>
             <div className="item">
+                <a href={data.instagram.url}>
                 <img src={data.instagram.src} alt="" />
-                <a href={data.instagram.url}><h6>{data.instagram.name}</h6></a>
+                <h6>{data.instagram.name}</h6>
+                </a>
             </div>
             <div className="item">
+                <a href={data.linkedin.url}>
                 <img src={data.linkedin.src} alt="" />
-                <a href={data.linkedin.url}><h6>{data.linkedin.name}</h6></a>
+                <h6>{data.linkedin.name}</h6>
+                </a>
             </div>
             <div className="item">
+                <a href={data.twitter.url}>
                 <img src={data.twitter.src} alt="" />
-                <a href={data.twitter.url}><h6>{data.twitter.name}</h6></a>
+                <h6>{data.twitter.name}</h6>
+                </a>
             </div>
             <div className="item">
+                <a href={data.facebook.url}>
                 <img src={data.facebook.src} alt="" />
-                <a href={data.facebook.url}><h6>{data.facebook.name}</h6></a>
+                <h6>{data.facebook.name}</h6>
+                </a>
             </div>
             
         </div>

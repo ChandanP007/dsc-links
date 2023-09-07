@@ -1,96 +1,100 @@
-:root{
-    --googleblue : #4285F4;
-    --googlered : #DB4437;
-    --googlegreen : #0F9D58;
-    --googleyellow : #F4B400;
-    margin: 0;
 
-}
-*{color: white;}
-#root{padding: 0px; border: 4px solid white; animation : borderChange 4s infinite alternate;}
 
-@keyframes borderChange {
-    0% {
-      border-top-color: var(--googleblue);
-      border-right-color: var(--googlered);
-      border-bottom-color: var(--googlegreen);
-      border-left-color: var(--googleyellow);
-    }
-    50% {
-      border-left-color: var(--googleblue);
-      border-top-color: var(--googlered);
-      border-right-color: var(--googlegreen);
-      border-bottom-color: var(--googleyellow);
-    }
-    100% {
-      border-bottom-color: var(--googleblue);
-      border-left-color: var(--googlered);
-      border-top-color: var(--googlegreen);
-      border-right-color: var(--googleyellow);
-    }
-  }
-  
-.brand{
-    padding: 10px;
-    background: url('./assets/university.jpg') ;
-    backdrop-filter: blur(100px);
-    background-clip: text;
-    background-size: cover;
-    background-position: center;
-    color: white;
+@media screen and (max-width: 421px) {
+    :root{
+        --googleblue : #4285F4;
+        --googlered : #DB4437;
+        --googlegreen : #0F9D58;
+        --googleyellow : #F4B400;
+        margin: 0; padding: 0px;
     
-}
-.brand h1{
-    margin: 4px;
-    color : white;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
-    font-size: 24px;
-}
-.brand h2{
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
-    font-size: 18px;
-    margin: 0px;
-}
-.accounts{
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 50px;
-    margin-bottom: 100px;
-}
-.footer{
-    border-top: 4px solid var(--googleblue);
-    border-left: 4px solid var(--googlegreen);
-    border-bottom: 4px solid var(--googlered);
-    border-right: 4px solid var(--googleyellow);
-    border-radius: 30px;
-    margin-top: 100px;
-    font-size: 15px;
-    font-weight: bolder;
-    padding: 5px;
-    width: 50%;
-    display: block;
-    margin: auto;
-    background: rgba(245, 245, 245, 0.904);
-    color: black;
-    margin-bottom: 100px;
+    }
+    *{color: white;}
+    #root{padding: 0px; border: 4px solid white; animation : borderChange 4s infinite alternate;}
     
-}
-h6.copyright{
-    font-family: monospace;
-    font-size: 10px;
-}
-.item img{
-    margin: 0;
-    height: 70px; width: 70px;
-    border-radius: 50%;
-    border-top: 5px solid var(--googleblue);
-    border-left: 5px solid var(--googlegreen);
-    border-bottom: 5px solid var(--googlered);
-    border-right: 5px solid var(--googleyellow);
-}
-.item h6{
-    margin: 2px;
+    @keyframes borderChange {
+        0% {
+          border-top-color: var(--googleblue);
+          border-right-color: var(--googlered);
+          border-bottom-color: var(--googlegreen);
+          border-left-color: var(--googleyellow);
+        }
+        50% {
+          border-left-color: var(--googleblue);
+          border-top-color: var(--googlered);
+          border-right-color: var(--googlegreen);
+          border-bottom-color: var(--googleyellow);
+        }
+        100% {
+          border-bottom-color: var(--googleblue);
+          border-left-color: var(--googlered);
+          border-top-color: var(--googlegreen);
+          border-right-color: var(--googleyellow);
+        }
+      }
+      
+    .brand{
+        padding: 10px;
+        background: url('./assets/university.jpg') ;
+        backdrop-filter: blur(100px);
+        background-clip: text;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        
+    }
+    .brand h1{
+        margin: 4px;
+        color : white;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+        font-size: 24px;
+    }
+    .brand h2{
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+        margin: 0px;
+    }
+    .accounts{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+    .footer{
+        border-top: 4px solid var(--googleblue);
+        border-left: 4px solid var(--googlegreen);
+        border-bottom: 4px solid var(--googlered);
+        border-right: 4px solid var(--googleyellow);
+        border-radius: 30px;
+        margin-top: 100px;
+        font-size: 15px;
+        font-weight: bolder;
+        padding: 5px;
+        width: 50%;
+        display: block;
+        margin: auto;
+        background: rgba(245, 245, 245, 0.904);
+        color: black;
+        margin-bottom: 100px;
+        
+    }
+    h6.copyright{
+        font-family: monospace;
+        font-size: 10px;
+    }
+    .item img{
+        margin: 0;
+        height: 70px; width: 70px;
+        border-radius: 50%;
+        border-top: 5px solid var(--googleblue);
+        border-left: 5px solid var(--googlegreen);
+        border-bottom: 5px solid var(--googlered);
+        border-right: 5px solid var(--googleyellow);
+    }
+    .item h6{
+        margin: 2px;
+    }
 }
