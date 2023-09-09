@@ -36,8 +36,6 @@
     .brand{
         padding: 10px;
         background: url('https://dsc-upt.web.app/_next/static/images/home-875df7ff864cdbe3f228360a1b1e263f.webp') ;
-        backdrop-filter: blur(100px);
-        background-clip: text;
         background-size: cover;
         background-position: center;
         color: white;
