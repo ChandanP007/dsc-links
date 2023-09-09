@@ -8,7 +8,7 @@ function Phone(){
         <div className='brand'>
             <h1>Google Developer Student's Club</h1>
             <h2>Jis University, Kolkata</h2>
-        </div>
+        </div> 
         <div className="container">
 
         <div className="accounts">
