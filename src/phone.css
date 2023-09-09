@@ -13,8 +13,8 @@
     #root{
         padding: 0px; 
         animation : borderChange 4s infinite alternate;
-        border: 1.5px solid white;
-        box-shadow: inset 0px 0px 7px -1px greenyellow;
+        border: 2px solid white;
+        /* box-shadow: inset 0px 0px 7px -1px greenyellow; */
     }
     
     @keyframes borderChange {
@@ -30,11 +30,17 @@
           border-right-color: var(--googlegreen);
           border-bottom-color: var(--googleyellow);
         }
+        75% {
+            border-bottom-color: var(--googleblue);
+            border-left-color: var(--googlered);
+            border-top-color: var(--googlegreen);
+            border-right-color: var(--googleyellow);
+        }
         100% {
-          border-bottom-color: var(--googleblue);
-          border-left-color: var(--googlered);
-          border-top-color: var(--googlegreen);
-          border-right-color: var(--googleyellow);
+          border-right-color: var(--googleblue);
+          border-bottom-color: var(--googlered);
+          border-left-color: var(--googlegreen);
+          border-top-color: var(--googleyellow);
         }
       }
       
