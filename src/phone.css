@@ -10,7 +10,12 @@
     
     }
     *{color: white; padding: 0px; margin: 0px;}
-    #root{padding: 0px; border: 4px solid white; animation : borderChange 4s infinite alternate;}
+    #root{
+        padding: 0px; 
+        animation : borderChange 4s infinite alternate;
+        border: 1.5px solid white;
+        box-shadow: inset 0px 0px 7px -1px greenyellow;
+    }
     
     @keyframes borderChange {
         0% {
