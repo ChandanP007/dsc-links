@@ -35,7 +35,7 @@
       
     .brand{
         padding: 50px;
-        background: url('./assets/university.jpg') ;
+        background: url('https://dsc-upt.web.app/_next/static/images/home-875df7ff864cdbe3f228360a1b1e263f.webp') ;
         backdrop-filter: blur(100px);
         background-clip: text;
         background-size: cover;
@@ -62,6 +62,7 @@
         gap: 50px;
         margin-bottom: 100px;
     }
+    
     .footer{
         border-top: 4px solid var(--googleblue);
         border-left: 4px solid var(--googlegreen);

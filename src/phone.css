@@ -9,7 +9,7 @@
         margin: 0; padding: 0px;
     
     }
-    *{color: white;}
+    *{color: white; padding: 0px; margin: 0px;}
     #root{padding: 0px; border: 4px solid white; animation : borderChange 4s infinite alternate;}
     
     @keyframes borderChange {
@@ -35,7 +35,7 @@
       
     .brand{
         padding: 10px;
-        background: url('./assets/university.jpg') ;
+        background: url('https://dsc-upt.web.app/_next/static/images/home-875df7ff864cdbe3f228360a1b1e263f.webp') ;
         backdrop-filter: blur(100px);
         background-clip: text;
         background-size: cover;
@@ -79,6 +79,8 @@
         background: rgba(245, 245, 245, 0.904);
         color: black;
         margin-bottom: 100px;
+        animation: borderChange 2s infinite alternate;
+
         
     }
     h6.copyright{
