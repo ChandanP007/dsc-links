@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import '../phone.css'
 import data from '../data.json'
 
@@ -6,7 +6,7 @@ function Phone(){
     return (
         <>
         <div className='brand'>
-            <h1>Google Developer Student's Club</h1>
+            <h1>Google Developers Group <br/>On Campus</h1>
             <h2>Jis University, Kolkata</h2>
         </div> 
         <div className="container">

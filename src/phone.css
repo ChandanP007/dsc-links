@@ -6,12 +6,12 @@
         --googlered : #DB4437;
         --googlegreen : #0F9D58;
         --googleyellow : #F4B400;
-        margin: 0; padding: 0px;
+        margin: 10px; padding: 0px;
     
     }
     *{color: white; padding: 0px; margin: 0px;}
     #root{
-        padding: 0px; 
+        padding: 12px; 
         animation : borderChange 4s infinite alternate;
         border: 2px solid white;
         /* box-shadow: inset 0px 0px 7px -1px greenyellow; */
@@ -49,7 +49,7 @@
         background: url('https://dsc-upt.web.app/_next/static/images/home-875df7ff864cdbe3f228360a1b1e263f.webp') ;
         background-size: cover;
         background-position: center;
-        color: white;
+        color: whitesmoke;
         
     }
     .brand h1{
