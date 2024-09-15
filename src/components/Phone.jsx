@@ -48,12 +48,12 @@ function Phone(){
                 <h6>{data.twitter.name}</h6>
                 </a>
             </div>
-            <div className="item">
+            {/* <div className="item">
                 <a href={data.facebook.url}>
                 <img src={data.facebook.src} alt="" />
                 <h6>{data.facebook.name}</h6>
                 </a>
-            </div>
+            </div> */}
             
         </div>
 
