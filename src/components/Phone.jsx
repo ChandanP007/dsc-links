@@ -58,7 +58,7 @@ function Phone(){
         </div>
 
         <h4 className='footer'>Connect | Learn | Grow</h4>
-        <h6 className='copyright'>Created by Chandan with ❤️</h6>
+        <h6 className='copyright'>Organiser : Ankita Chakraborty</h6>
         </div>
         </>
     )

@@ -6,12 +6,13 @@
         --googlered : #DB4437;
         --googlegreen : #0F9D58;
         --googleyellow : #F4B400;
-        margin: 10px; padding: 0px;
+        margin: 1px; padding: 0px;
     
     }
     *{color: white; padding: 0px; margin: 0px;}
     #root{
-        padding: 12px; 
+        /* padding: 12px;  */
+        width: 100%;
         animation : borderChange 4s infinite alternate;
         border: 2px solid white;
         /* box-shadow: inset 0px 0px 7px -1px greenyellow; */
@@ -87,14 +88,17 @@
         margin: auto;
         background: rgba(245, 245, 245, 0.904);
         color: black;
-        margin-bottom: 100px;
+        margin-bottom: 90px;
         animation: borderChange 2s infinite alternate;
-
+        
         
     }
     h6.copyright{
         font-family: monospace;
         font-size: 10px;
+        text-align: center;
+        
+
     }
     .item img{
         margin: 0;
